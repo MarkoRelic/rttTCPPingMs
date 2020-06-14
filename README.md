@@ -36,3 +36,6 @@ Messages sent failed: 0
 
 Exiting Pitcher, Goodbye!
 ```
+
+###### java version "12.0.2" 2019-07-16 is used
+
