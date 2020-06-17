@@ -146,7 +146,7 @@ public class PingPitcher {
 	        colsValues.clear();
 	        
 	        // Add current time to printout list
-	        DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("HH:mm:ss");
+	        DateTimeFormatter timeFormat = DateTimeFormatter.ofPattern("HH:MM:SS");
 	        colsValues.add(timeFormat.format(LocalDateTime.now()));
 	        
 	        // Add number of msgs to printout list
