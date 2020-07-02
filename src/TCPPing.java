@@ -157,7 +157,7 @@ public class TCPPing {
                 msgAndExit("ParseCmdLine: illegal option", ExitCodes.ILLEGAL_OPTION);
             }
         }
-        if (!catcherFlag && !catcherFlag) {
+        if (!catcherFlag && !pitcherFlag) {
             msgAndExit("Neither Pitcher or Catcher is selected, exiting...", ExitCodes.NO_MODE);
         }
     }
